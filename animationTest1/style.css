@@ -176,7 +176,6 @@ body {
 }
 
 .ghost-container {
-    position: relative;
     width: 80px;
     height: 140px;
     padding: 20px 30px 0 30px;
@@ -236,6 +235,14 @@ body {
 }
 .eye.left {
     left: 5px;
+}
+.eye.left2 {
+    background-color: rgba(64, 132, 86, 0.62);
+    left: 5px;
+}
+.eye.right2 {
+    background-color: rgba(64, 132, 86, 0.62);
+    right: 5px;
 }
 .eye.right {
     right: 5px;
@@ -446,14 +453,16 @@ body {
     -webkit-transform: skewY(-60deg);
     transform: skewY(-60deg);
 }
+
+
 .star.orange .star-element, .star.orange .star-element:before, .star.orange .star-element:after {
-    background-color: #DF814D;
+    background-color: #FF5784;
 }
 .star.yellow .star-element, .star.yellow .star-element:before, .star.yellow .star-element:after {
-    background-color: #FFD186;
+    background-color: #FF9459;
 }
 .star.blue .star-element, .star.blue .star-element:before, .star.blue .star-element:after {
-    background-color: #83D0BC;
+    background-color: #DF09;
 }
 
 .star-1 {
@@ -609,4 +618,19 @@ body {
 .move-stars-in .star-6 .star-element {
     -webkit-animation-delay: 350ms;
     animation-delay: 350ms;
+}
+
+p{
+    position: absolute;
+    top:40%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80pt;
+    color: #1B1D18;
+}
+p2{
+    position: absolute;
+    top:39%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80pt;
+    color: #525849;
 }

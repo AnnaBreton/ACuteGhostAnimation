@@ -75,8 +75,12 @@ class Ghost {
     }
 
     closeMouth() {
-        this.mouth.classList.remove('open');
         this.mouth.classList.add('closed');
+        setTimeout(() => {
+            this.mouth.classList.remove('open');
+        }, 50)
+
+
         this.mouthState = 'closed';
     }
 
@@ -129,6 +133,7 @@ class Ghost {
             switch (Math.floor(Math.random()*4)) {
                 case 0:
                     this.blink();
+                    //this.surprise();
                     setTimeout(() => { this.blink() }, 400);
                     setTimeout(() => { this.blink() }, 1300);
                     break;
@@ -153,3 +158,60 @@ let ghost = new Ghost(document.querySelector('.scene-container'));
 ghost.hover();
 ghost.startActivity();
 ghost.prepareEscape();
+
+
+
+
+let ghost2 = new Ghost(document.querySelector('.scene-container'));
+
+ghost2.hover();
+ghost2.startActivity();
+ghost2.prepareEscape();
+
+let ghost3 = new Ghost(document.querySelector('.scene-container'));
+
+ghost3.hover();
+ghost3.startActivity();
+ghost3.prepareEscape();
+
+let ghost4 = new Ghost(document.querySelector('.scene-container'));
+
+ghost4.hover();
+ghost4.startActivity();
+ghost4.prepareEscape();
+
+let ghost5 = new Ghost(document.querySelector('.scene-container'));
+
+ghost5.hover();
+ghost5.startActivity();
+ghost5.prepareEscape();
+
+let ghost6 = new Ghost(document.querySelector('.scene-container'));
+
+ghost6.hover();
+ghost6.startActivity();
+ghost6.prepareEscape();
+
+let ghost7 = new Ghost(document.querySelector('.scene-container'));
+
+ghost7.hover();
+ghost7.startActivity();
+ghost7.prepareEscape();
+
+let ghost8 = new Ghost(document.querySelector('.scene-container'));
+
+ghost8.hover();
+ghost8.startActivity();
+ghost8.prepareEscape();
+
+let ghost9 = new Ghost(document.querySelector('.scene-container'));
+
+ghost9.hover();
+ghost9.startActivity();
+ghost9.prepareEscape();
+
+let ghost10 = new Ghost(document.querySelector('.scene-container'));
+
+ghost10.hover();
+ghost10.startActivity();
+ghost10.prepareEscape();

@@ -16,7 +16,7 @@ $ghost-exit-speed: 800ms;
 $ghost-entrance-speed: 2000ms;
 $waving-speed: 400ms;
 $blink-speed: 50ms;
-$mouth-speed: 150ms;
+$mouth-speed: 50ms;
 $shadow-disappear-speed: 400ms;
 $shadow-appear-speed: 800ms;
 $star-entrance-speed: 1500ms;
@@ -140,6 +140,12 @@ body {
   transition: height $blink-speed ease;
   &.left {
     left: 5px;
+  }
+  &.left2 {
+    left: 5px;
+  }
+  &.right2 {
+    right: 5px;
   }
   &.right {
     right: 5px;
