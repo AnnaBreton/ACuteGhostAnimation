@@ -1,4 +1,4 @@
-# ACuteGhostAnimation
+# Halloween Ghost Animation
 
 Click Link below to preview:
 
